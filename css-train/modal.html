@@ -1,0 +1,65 @@
+<head>
+<style>
+* {
+  font: caption;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+</style>
+</head>
+<body>
+<div style="
+  border: 5px solid;
+  padding: 1em;
+  max-width: 60%;
+  display: grid;
+  grid-template-rows: 1.3em 1fr 1.5em;
+  grid-row-gap: 0.7em;
+">
+  <div style="
+  ">
+    <div style="
+      float: right;
+      border: 4px solid;
+      height: 100%;
+      line-height: 50%;
+      width: min-content;
+      font-size: 1.5em;
+      font-weight: bold;
+    ">
+      x
+    </div>
+  </div>
+  <div style="
+    font-size: 1.5em;
+    --pad: 1em;
+    padding-left: var(--pad);
+    padding-right: var(--pad);
+  ">Are you sure you want to include a dialog in your pattern library?</div>
+  <div style="
+    display: grid;
+    grid-template-columns: repeat(2, calc(50% - 0.7em / 2));
+    grid-column-gap: 0.7em;
+    padding-left: 50%;
+  ">
+    <div style="
+      border: 4px black solid;
+      text-align: center;
+      background: black;
+      color: white;
+      width: 100%;
+      float: left;
+      padding: .1em .8em;
+      font-weight: bold;
+    ">Okay</div>
+    <div style="
+      border: 4px solid;
+      text-align: center;
+      width: 100%;
+      float: left;
+      padding: .1em .8em;
+      font-weight: bold;
+    ">Cancel</div>
+  </div>
+</div>
+</body>
